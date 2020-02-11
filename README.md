@@ -1,4 +1,4 @@
-Welcome a special fusion of Plaidypus and Yelp
+### Welcome a special fusion of Plaidypus and Yelp
 
 Simply type in the name of the business you want to look at press search and click from the results found to view the details.
  
@@ -8,6 +8,7 @@ Your just one npm install and yarn start away from awesomeness!
 
 
 /** I already have the API Hosted so no need to download that **/
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
