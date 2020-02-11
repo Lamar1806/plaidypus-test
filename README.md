@@ -1,4 +1,4 @@
-### Welcome a special fusion of Plaidypus and Yelp
+### Welcome a Special Fusion of Plaidypus and Yelp
 
 Simply type in the name of the business you want to look at press search and click from the results found to view the details.
  
