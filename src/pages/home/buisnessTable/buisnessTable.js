@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { NavLink, Route, Link } from 'react-router-dom'
+import styles from './buisnessTable.module.css'
 
 export default class buisnessTable extends Component {
     state = {
@@ -16,11 +17,11 @@ export default class buisnessTable extends Component {
                             pathname:'/view',
                             state:{data:x}
                         }}>
-                            view details
+                            View
                         </Link> 
             return <tr key={i}>
-                <td>{x.name}</td>
-                <td>{link}</td>
+                <td className={styles.firstColumn}>{x.name}</td>
+                <td className={styles.secondColumn}>{link}</td>
             </tr>
         })
         return data;
@@ -34,7 +35,6 @@ export default class buisnessTable extends Component {
                         {this.renderTableData()}
                     </tbody>
                 </table>
-
             </div>
         )
     }

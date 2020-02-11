@@ -1,0 +1,27 @@
+:local(.container){
+    padding: 20px;
+    letter-spacing: .5px;
+}
+
+:local(.img){
+    width: 100%;
+    height: auto;
+    max-height: 110%;
+    margin-bottom: 15px;
+}
+
+:local(.h2){
+    margin-bottom: 15px;
+    letter-spacing: 1.3px;
+}
+
+:local(span){
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+:local(a){
+    text-decoration: none;
+    color: black;
+}

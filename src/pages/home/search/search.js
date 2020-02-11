@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import TextInput from '../textInput'
+import TextInput from '../../../components/textInput'
 import styles from './search.module.css'
 
 export default class search extends Component {   
