@@ -9,17 +9,17 @@ export default class search extends Component {
     getBuisnessName = (value)=>{
         this.setState({
             text: value
-        },()=>console.log(this.state.text))
+        })
     }
     async handleSubmit(e){
         e.preventDefault();        
         try{
-            let resp = await fetch(`http://localhost:3000/?name${this.state.text}`);
+            let resp = await fetch(`https://plaidypus-test-api.herokuapp.com/?name${this.state.text}`);
             let data = await resp.json()
             this.props.getData(data)
-            // console.log('search',data)        
         }catch(e){
-            console.log(e)
+            console.log(e);
+            alert('Opps looks like something went Wrong!')
         }
     }
     render() {
@@ -27,8 +27,7 @@ export default class search extends Component {
             <form className={styles.form} onSubmit={this.handleSubmit.bind(this)}>
                 <TextInput 
                     className={styles.textInput}
-                    placeholder={'Please enter a buisiness'}
-                    
+                    placeholder={'Please enter a buisiness'}                    
                     getValue={this.getBuisnessName.bind(this)}
                 />
 

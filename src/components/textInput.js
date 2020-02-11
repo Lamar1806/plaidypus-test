@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 
 export default class textInput extends Component {
     state={
-        text: 'ok'
+        text: ''
     }
     onChange = (e)=>{
         this.setState({
