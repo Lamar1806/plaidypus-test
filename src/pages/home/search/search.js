@@ -14,7 +14,7 @@ export default class search extends Component {
     async handleSubmit(e){
         e.preventDefault();        
         try{
-            let resp = await fetch(`https://plaidypus-test-api.herokuapp.com/?name${this.state.text}`);
+            let resp = await fetch(`https://plaidypus-test-api.herokuapp.com/?name=${this.state.text}`);
             let data = await resp.json()
             this.props.getData(data)
         }catch(e){
