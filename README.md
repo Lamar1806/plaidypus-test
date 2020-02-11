@@ -7,7 +7,7 @@ Or you can just click search and enjoy looking through a random list of buisines
 Your just one npm install and yarn start away from awesomeness!
 
 
-## `I already have the plaidypus-test Hosted so no need to download that`
+## `I already have the plaidypus-test Hosted`
 
 
 
