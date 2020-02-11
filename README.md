@@ -1,6 +1,6 @@
 ### Welcome a Special Fusion of Plaidypus and Yelp
 
-Simply type in the name of the business you want to look at press search and click from the results found to view the details.
+Simply type in the name, category, keyword of the business you want press search and click from the results found to view the details.
  
 Or you can just click search and enjoy looking through a random list of buisinesses in the Naperville Area.
  
