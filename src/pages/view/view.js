@@ -13,21 +13,23 @@ class view extends Component {
             <div className={styles.container}>
                 <h2 className={styles.h2}>{data.name}</h2>
                 <img className={styles.img} src={data.image_url} alt="buisiness image"/>
-                <span className={styles.ratting}>Rating: </span> {data.rating}
-                <br/>
-                <span className={styles.pricing}>Pricing: </span> {data.price}
-                <br/>
-                <span className={styles.location}>Location: </span> {data.location.address1}
-                <br/>
-                <span className={styles.phone_number}>Phone Number: </span> <a href="tel:+">{data.display_phone}</a>
-                <br/>
-                <span className={styles.pricing}>WebSite: </span>
-                <a 
-                    className={styles.web_link} 
-                    href={data.url} target="_blank" 
-                    rel="noopener noreferrer">
-                    &nbsp;Website
-                </a>
+                <div>
+                    <span className={styles.ratting}>Rating: </span> {data.rating}
+                    <br/>
+                    <span className={styles.pricing}>Pricing: </span> {data.price}
+                    <br/>
+                    <span className={styles.location}>Location: </span> {data.location.address1}
+                    <br/>
+                    <span className={styles.phone_number}>Phone Number: </span> <a href="tel:+">{data.display_phone}</a>
+                    <br/>
+                    <span className={styles.pricing}>WebSite: </span>
+                    <a 
+                        className={styles.web_link} 
+                        href={data.url} target="_blank" 
+                        rel="noopener noreferrer">
+                        &nbsp;Website
+                    </a>
+                </div>
             </div>
         )
     }
